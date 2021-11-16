@@ -52,6 +52,8 @@ services:
       context: .
       dockerfile: Services/Ordering/Ordering.API/Dockerfile
 
+
+
 volumes:
   mongo_data:
   portainer_data:

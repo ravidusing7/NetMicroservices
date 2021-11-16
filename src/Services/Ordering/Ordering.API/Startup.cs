@@ -1,4 +1,4 @@
-using EventBus.Messages.Common;
+
 using MassTransit;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

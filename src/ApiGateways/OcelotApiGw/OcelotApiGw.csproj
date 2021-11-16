@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="ocelot.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ocelot.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Ocelot" Version="17.0.0" />
   </ItemGroup>
 
